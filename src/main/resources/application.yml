@@ -1,0 +1,11 @@
+camel:
+  springboot:
+    name: BookAPI-XML
+  servlet:
+    mapping:
+      context-path: /api/*
+  rest:
+    context-path: /api
+    
+server:
+  port: 8080   
